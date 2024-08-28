@@ -6,7 +6,7 @@ class Person {
 	}
 
 	get name(name) {
-		console.log(this.name);
+		return this.name
 	}
 	set age(newage) {
 		this.age = newage;
